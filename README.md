@@ -1,8 +1,5 @@
 # snap-academy
 
-# toxicity
-
-
  ### Snap Engineering Academy Project Assessment
 
  ------------------
