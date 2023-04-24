@@ -10,7 +10,6 @@ toggleSwitch.addEventListener('change', function() {
     footer.style.backgroundColor = 'black';
     hero.classList.remove('hero1');
     hero.classList.add('hero2');
-  
     logo.src="./assets/images/logo2.png"
 
   } else {
