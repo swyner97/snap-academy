@@ -17,7 +17,7 @@ toggleSwitch.addEventListener('change', function() {
     footer.style.backgroundColor = '';
     hero.classList.remove('hero2');
     hero.classList.add('hero1');
-    logo.src="./assets/images/logo.png"
+    logo.src="./assets/images/logo1.png"
 
   }    
 });
