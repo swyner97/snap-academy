@@ -88,6 +88,10 @@ body {
     padding-left: 150px;
     padding-right: 150px;
   }
+
+  .button {
+    border-width: 0px;
+  }
   
   /* The slider */
   .slider {

@@ -3,7 +3,7 @@ const body = document.querySelector('body');
 const footer = document.querySelector('footer');
 const hero = document.querySelector('.hero');
 const logo = document.querySelector('#logo');
-const dropdown = document.querySelector('.dropdown-trigger button');
+const dropdown = document.querySelector('.navbar-burger');
 const active = document.querySelector('.dropdown');
 
 toggleSwitch.addEventListener('change', function () {
