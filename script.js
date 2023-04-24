@@ -3,21 +3,28 @@ const body = document.querySelector('body');
 const footer = document.querySelector('footer');
 const hero = document.querySelector('.hero');
 const logo = document.querySelector('#logo');
+const dropdown = document.querySelector('.dropdown-trigger button');
+const active = document.querySelector('.dropdown');
 
-toggleSwitch.addEventListener('change', function() {
+toggleSwitch.addEventListener('change', function () {
   if (this.checked) {
     body.style.backgroundColor = 'white';
     footer.style.backgroundColor = 'black';
     hero.classList.remove('hero1');
     hero.classList.add('hero2');
-    logo.src="./assets/images/logo2.png"
+    logo.src = "./assets/images/logo2.png"
 
   } else {
     body.style.backgroundColor = '';
     footer.style.backgroundColor = '';
     hero.classList.remove('hero2');
     hero.classList.add('hero1');
-    logo.src="./assets/images/logo1.png"
-
-  }    
+    logo.src = "./assets/images/logo1.png"
+  }
 });
+
+
+dropdown.addEventListener('click', () => {
+  active.classList.toggle('is-active');
+});
+
